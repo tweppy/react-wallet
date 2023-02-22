@@ -1,0 +1,17 @@
+.card-stack {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.card-stack .card:not(:last-child) {
+    margin-bottom: -12rem;
+}
+
+.card-stack .card:hover {
+    cursor: pointer;
+	transform: translateY(-20px); 
+}

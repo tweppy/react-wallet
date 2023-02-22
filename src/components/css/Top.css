@@ -1,0 +1,9 @@
+.top {
+    width: 382px;
+}
+
+.top__text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    color: #22222299;
+}
