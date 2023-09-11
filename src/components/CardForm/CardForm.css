@@ -1,0 +1,47 @@
+form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label,
+form {
+  color: #333;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+#vendor {
+  background-color: #fff;
+  border: 1px solid #000000cc;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 382px;
+  height: 56px;
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.details input {
+  width: 100%;
+}
+
+form span {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+form .btn {
+  margin: 1rem 0;
+}
